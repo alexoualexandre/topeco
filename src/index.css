@@ -24,7 +24,7 @@ header {
 .section-type-produits {
   width: 100%;
   position: absolute;
-  top: 35%;
+  top: 8em;
 }
 
 .grid-container {

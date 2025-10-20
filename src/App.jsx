@@ -29,6 +29,9 @@ export default function App() {
           <div class="grid-item">
             <img src="menage.webp" className="img-grid" />
           </div>
+          <div class="grid-item">
+            <img src="smoke.jpeg" className="img-grid" />
+          </div>
         </div>
       </section>
     </>
