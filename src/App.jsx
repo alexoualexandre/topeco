@@ -21,7 +21,7 @@ export default function App() {
       <section className="section-type-produits">
         <div class="grid-container">
           <div class="grid-item">
-            <img src="/public/sdb.png" className="img-grid" />
+            <img src="src/sdb.png" className="img-grid" />
           </div>
           <div class="grid-item">
             <img src="frigo.png" className="img-grid" />
