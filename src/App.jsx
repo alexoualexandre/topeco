@@ -15,7 +15,7 @@ export default function App() {
       });
   };
   useEffect(() => {
-    fetch(`${VITE_API_HTTP}://${VITE_API_URL}:${VITE_API_PORT}/get-user`)
+    fetch(`${VITE_API_HTTP}://${VITE_API_URL}:${VITE_API_PORT}/get-produits`)
       .then((response) => response.json())
       .then((response) => {
         console.log(response);

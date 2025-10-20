@@ -8,7 +8,7 @@ const cors = require("cors");
 
 const app = express();
 
-const { getUser } = require("./controler/userControler.js");
+const { getProduits } = require("./controler/produitsControler.js");
 
 app.use(express.json());
 
@@ -40,4 +40,4 @@ app.get("/teste/:reponseServer", (req, res) => {
   res.json({ reponse: reponseServer });
 });
 
-app.get("/get-user", getUser);
+app.get("/get-produits", getProduits);
