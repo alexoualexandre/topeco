@@ -14,7 +14,7 @@ app.use(express.json());
 
 const corsOptions = {
   origin: function (origin, callback) {
-    const whitelist = ["http://localhost:5173", "http://77.37.51.45:5001"];
+    const whitelist = ["http://localhost:5173", "http://77.37.51.45:5002"];
     if (whitelist.indexOf(origin) !== -1 || !origin) {
       callback(null, true);
     } else {
@@ -27,7 +27,7 @@ app.use(cors(corsOptions));
 
 app.use("/upload", express.static(path.join(__dirname, "/upload")));
 
-app.listen("3000");
+app.listen("3312");
 
 app.get("/teste/:reponseServer", (req, res) => {
   const { reponseServer } = req.params;
