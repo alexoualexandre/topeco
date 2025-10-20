@@ -20,17 +20,27 @@ export default function App() {
       </header>
       <section className="section-type-produits">
         <div class="grid-container">
+          <Link to="/route1">
+            <div class="grid-item">
+              <button type="button" className="button-categorie">
+                <img src="sdb.png" className="img-grid" />
+              </button>
+            </div>
+          </Link>
           <div class="grid-item">
-            <img src="sdb.png" className="img-grid" />
+            <button type="button" className="button-categorie">
+              <img src="frigo.png" className="img-grid" />
+            </button>
           </div>
           <div class="grid-item">
-            <img src="frigo.png" className="img-grid" />
+            <button type="button" className="button-categorie">
+              <img src="menage.webp" className="img-grid" />
+            </button>
           </div>
           <div class="grid-item">
-            <img src="menage.webp" className="img-grid" />
-          </div>
-          <div class="grid-item">
-            <img src="smoke.jpeg" className="img-grid" />
+            <button type="button" className="button-categorie">
+              <img src="smoke.jpeg" className="img-grid" />
+            </button>
           </div>
         </div>
       </section>

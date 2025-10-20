@@ -49,3 +49,20 @@ header {
   width: 100%;
   height: 100%;
 }
+
+.button-categorie {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+.composant-sdb {
+  position: absolute;
+  top: 8em;
+  width: 100%;
+  height: 29em;
+  background-color: red;
+  overflow: scroll;
+}
+
