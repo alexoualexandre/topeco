@@ -1,4 +1,9 @@
 :root {
+  --border-color-vignette: black;
+  --border-size-vignette: 4px;
+  --background-color-header: #192e03;
+  --background-color-section-type-produits: #192e03;
+  --background-color-body: #192e03;
 }
 
 * {
@@ -6,10 +11,18 @@
   padding: 0;
 }
 
+body {
+  background-color: var(--background-color-body);
+}
+
 header {
   width: 100%;
   height: 8em;
-  background-color: white;
+  background: linear-gradient(
+    to top,
+    var(--background-color-section-type-produits),
+    black
+  );
   text-align: center;
   left: 0;
   top: 0;
@@ -25,6 +38,7 @@ header {
   width: 100%;
   position: absolute;
   top: 8em;
+  background-color: var(--background-color-section-type-produits);
 }
 
 .grid-container {
@@ -35,14 +49,14 @@ header {
 }
 
 .grid-item {
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 2px;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: white;
   font-weight: bold;
   width: 90%;
   height: 8em;
-  border: 1.5px solid black;
+  border: var(--border-size-vignette) double var(--border-color-vignette);
 }
 
 .img-grid {
@@ -62,7 +76,6 @@ header {
   top: 8em;
   width: 100%;
   height: 29em;
-  background-color: red;
   overflow: scroll;
+  background-color: var(--background-color-body);
 }
-

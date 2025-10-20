@@ -15,7 +15,7 @@ export default function App() {
   return (
     <>
       <header>
-        <img src="top.png" alt="logo" className="img-logo" />
+        <img src="top2.png" alt="logo" className="img-logo" />
         <Outlet />
       </header>
       <section className="section-type-produits">
