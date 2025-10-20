@@ -27,7 +27,13 @@ app.use(cors(corsOptions));
 
 app.use("/upload", express.static(path.join(__dirname, "/upload")));
 
-app.listen("3312");
+try {
+  app.listen(3312, () => {
+    console.log("Server is running on port 3312");
+  });
+} catch (err) {
+  console.error("Failed to start server:", err);
+}
 
 app.get("/teste/:reponseServer", (req, res) => {
   const { reponseServer } = req.params;
