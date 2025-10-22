@@ -48,15 +48,11 @@ export default function App() {
             </button>
           </div>
 
-
-   <div class="grid-item">
+          <div class="grid-item">
             <button type="button" className="button-categorie">
-              <img src="eate.png" className="img-grid" />
+              <img src="pain.jpg" className="img-grid" />
             </button>
           </div>
-
-
-
         </div>
       </section>
     </>
