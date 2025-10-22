@@ -51,7 +51,7 @@ export default function App() {
 
    <div class="grid-item">
             <button type="button" className="button-categorie">
-              <img src="eate.jpg" className="img-grid" />
+              <img src="eate.png" className="img-grid" />
             </button>
           </div>
 
