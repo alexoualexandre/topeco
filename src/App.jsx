@@ -47,6 +47,16 @@ export default function App() {
               <img src="cuisine.png" className="img-grid" />
             </button>
           </div>
+
+
+   <div class="grid-item">
+            <button type="button" className="button-categorie">
+              <img src="eate.jpg" className="img-grid" />
+            </button>
+          </div>
+
+
+
         </div>
       </section>
     </>
